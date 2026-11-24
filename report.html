@@ -28,7 +28,7 @@ pre { background: #0f2233; color: #e6f1f7; padding: 8pt 10pt; border-radius: 5px
 <div class="meta">
 <div><b>Author:</b> Artorius Reyes</div>
 <div><b>GitHub repository:</b> <a href="https://github.com/AMR6958-coder/nyhp-compass">https://github.com/AMR6958-coder/nyhp-compass</a></div>
-<div><b>The app online:</b> not hosted yet. It runs on any computer with Python (three commands in the README), and the files for hosting it on Render are in the repository.</div>
+<div><b>The app online:</b> <a href="https://nyhp-compass.onrender.com">https://nyhp-compass.onrender.com</a>. It is a pilot copy that asks for a sign-in and holds fictitious data only. The app also runs on any computer with Python (three commands in the README).</div>
 <div><b>In one sentence:</b> Compass helps a hospital's facilities leaders and its CFO decide which building projects to do, and when, by scoring every project against the hospital's own priorities, working out the best plan that fits the yearly budgets, and using AI only to draft what a person then checks.</div>
 </div>
 <p class="small">November 23, 2026. Every screenshot is of the app running on the demo hospital, New York General, which is fictitious. Every measured number says where it came from.</p>
@@ -173,7 +173,7 @@ pre { background: #0f2233; color: #e6f1f7; padding: 8pt 10pt; border-radius: 5px
 <h2>7. Limits and Next Steps</h2>
 <h3>What Does Not Work Yet</h3>
 <ul>
-<li><b>It is not online.</b> The hosting files are written and the first deployment has not been done. The hosted database (PostgreSQL) has never been run with it.</li>
+<li><b>It has only just gone online.</b> The pilot copy was first deployed on November 24, 2026, as one service with a disk, and nobody but me has used it yet. PostgreSQL, which a larger deployment would need, has never been run with it.</li>
 <li><b>Fictitious data only.</b> No real hospital has given permission for its documents or drawings, so the AI features have not met a real, old, scanned drawing.</li>
 <li><b>Safety gaps:</b> the trap set has not been run in full against the live model; the "second look" is not built; sign-in has no second proof of identity and no roles.</li>
 <li><b>No prompt caching,</b> although the measurements show most of each request repeats. No comparison of models or effort settings.</li>
@@ -182,7 +182,7 @@ pre { background: #0f2233; color: #e6f1f7; padding: 8pt 10pt; border-radius: 5px
 </ul>
 <h3>With Another Month</h3>
 <ol>
-<li>Put it online and run the four-login pilot, and replace my estimates in section 6 with what real users did.</li>
+<li>Run the four-login pilot on the hosted copy, and replace my estimates in section 6 with what real users did.</li>
 <li>Move the unchanging text to the front of each request, turn on prompt caching, and measure the saving on the same seven projects.</li>
 <li>Run all 11 trap documents against the live model and publish the results, pass or fail, then build the second look.</li>
 <li>Compare models and effort settings on the same projects, so the choice of model rests on evidence.</li>
